@@ -1,0 +1,98 @@
+body{
+    margin: 0 auto;
+    padding: 0;
+    background-color: #0e0c0c;
+    text-align: center;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container{
+    border: 1px solid black;
+    background-color: #151324;
+    border-radius: 25px;
+    text-align: center;
+    align-items: center;
+    margin: 0px auto;
+    padding: 0;
+    width: 500px;
+    height: 585px;
+    position: relative;
+    top: 60px;
+}
+
+.container h3{
+    font-size: 30px;
+    padding: 0;
+    margin: 15px auto;
+    color: white
+}
+
+.container input{
+    width: 330px;
+    height: 50px;
+    margin: 10px;
+    border: 3px solid transparent;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+button{
+    padding: 5px;
+    width: 75px;
+    height: 75px;
+    margin: 5px;
+    border-radius: 50%;
+}
+
+.degisik{
+    width: 165px;
+    padding: 5px;
+    border-radius: 50px;
+}
+
+.fonksiyon{
+    background-color: #676267;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    border: none;
+    text-align: center;
+    align-items: center;
+}
+
+.fonksiyon:hover, .fonksiyon:active{
+    background-color: rgb(205, 202, 198);
+    color: #0e0c0c;
+}
+
+.fonksiyoniki{
+    background-color: #ff891a;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    align-items: center;
+    font-weight: bold;
+    border: none;
+}
+
+.fonksiyoniki:hover, .fonksiyoniki:active{
+    background-color: rgb(245, 199, 138);
+    color: #0e0c0c;
+}
+
+.fonksiyonuc, .degisik{
+    background-color: #312e2c;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    align-items: center;
+    font-weight: bold;
+    border: none;
+}
+
+.fonksiyonuc:hover, .fonksiyonuc:active, .degisik:hover, .degisik:active{
+    background-color: rgb(110, 106, 106);
+}

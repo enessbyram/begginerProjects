@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <script src="functions.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h3>Calculator</h3>
+        <form >
+            <input type="text" name="islemalani" id="islemalani" readonly>
+            <div class="ilksatir">
+                <button class="islem fonksiyon" onclick="temizle('')">AC</button>
+                <button class="islem fonksiyon" onclick="goster('+')">+/-</button>
+                <button class="islem fonksiyon" onclick="goster('%')">%</button>
+                <button class="islem fonksiyoniki" onclick="goster('/')">/</button>
+            </div>
+            <div class="ikincisatir">
+                <button class="islem fonksiyonuc" onclick="goster('7')">7</button>
+                <button class="islem fonksiyonuc" onclick="goster('8')">8</button>
+                <button class="islem fonksiyonuc" onclick="goster('9')">9</button>
+                <button class="islem fonksiyoniki" onclick="goster('*')">*</button>
+            </div>
+            <div class="ucuncusatir">
+                <button class="islem fonksiyonuc" onclick="goster('4')">4</button>
+                <button class="islem fonksiyonuc" onclick="goster('5')">5</button>
+                <button class="islem fonksiyonuc" onclick="goster('6')">6</button>
+                <button class="islem fonksiyoniki" onclick="goster('-')">-</button>
+            </div>
+            <div class="dorduncusatir">
+                <button class="islem fonksiyonuc" onclick="goster('1')">1</button>
+                <button class="islem fonksiyonuc" onclick="goster('2')">2</button>
+                <button class="islem fonksiyonuc" onclick="goster('3')">3</button>
+                <button class="islem fonksiyoniki" onclick="goster('+')">+</button>
+            </div>
+            <div class="sonsatir">
+                <button class="islem degisik" onclick="goster('0')">0</button>
+                <button class="islem fonksiyonuc" onclick="goster(',')">,</button>
+                <button class="islem fonksiyoniki" onclick="hesapla()">=</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

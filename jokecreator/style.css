@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(90deg, #352345, #120528, #293045);
+}
+
+.container {
+    border: 1px solid #fff;
+    padding: 10px;
+    border-radius: 10px;
+    height: 350px;
+    width: 55%;
+    background-color: rgba(255, 255, 255, 0.1);
+    box-shadow: 5px 10px 30px;
+}
+
+h1 {
+    color: #fff;
+    font-size: 45px;
+    margin: 15px 10px 10px 20px;
+}
+
+.joke {
+    color: #fff;
+    font-size: 20px;
+    margin: 40px 10px 0px 20px;
+    height: 100px;
+}
+
+p {
+    padding: 15px 0px 15px 0px;
+}
+
+button {
+    width: 80%;
+    padding: 13px;
+    cursor: pointer;
+    font-size: 20px;   
+    background-color: transparent;
+    color: #fff;
+    border-radius: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    transition: all 0.3s ease;
+    margin-top: 40px;
+    outline: none;
+}
+
+button:hover {
+    background-color: #120528;
+    border: 1px solid #120528;
+}
+
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 40px;
+    }
+    .joke {
+        font-size: 16px;
+        margin-top: 70px;
+    }
+    button {
+        font-size: 16px;
+        margin-top: 60px;
+    }
+    .container {
+        height: 50%;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 900px){
+    h1 {
+        font-size: 45px;
+    }
+    .joke {
+        font-size: 20px;
+        margin-top: 70px;
+    }
+    button {
+        font-size: 20px;
+        margin-top: 50px;
+    }
+    .container {
+        height: 40%;
+    }
+}
+
+@media screen and (min-width: 540px) and (max-width: 768px){
+    h1 {
+        font-size: 35px;
+    }
+    .joke {
+        font-size: 16px;
+        margin-top: 70px;
+    }
+    button {
+        font-size: 20px;
+        margin-top: 50px;
+    }
+    .container {
+        height: 40%;
+    }
+}
